@@ -28,7 +28,8 @@ select * from category
 
 Create table contacts(
 contact_id     int,
-email         varchar,
 First_name    varchar,
-Last_name     varchar
+Last_name     varchar,
+email         varchar
 )
+select * from contacts
